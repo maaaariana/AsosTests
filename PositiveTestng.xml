@@ -1,0 +1,33 @@
+<suite name = "AsosTests">
+    <test name="ChangeCountryTest">
+        <classes>
+            <class name="tests.ChangeCountryTest"/>
+        </classes>
+    </test>
+
+    <test name = "BagTest">
+        <classes>
+            <class name="tests.BagTests">
+                <method>
+                    <include name = "checkAddToBag"/>
+                </method>
+                <method>
+                    <include name = "checkDeleteOfProductFromBag"/>
+                </method>
+            </class>
+        </classes>
+    </test>
+
+    <test name="FiltersTest">
+        <classes>
+            <class name="tests.FiltersTests"/>
+        </classes>
+    </test>
+
+    <test name="SavedItemsTests">
+        <classes>
+            <class name="tests.SavedItemsTests"/>
+        </classes>
+    </test>
+
+</suite>

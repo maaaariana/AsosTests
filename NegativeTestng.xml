@@ -1,0 +1,11 @@
+<suite name = "NegativeTest">
+    <test name = "checkAddToBagNegativeTest">
+        <classes>
+            <class name ="tests.BagTests">
+                <methods>
+                    <include name = "checkAddToBagNegativeTest" />
+                </methods>
+            </class>>
+        </classes>
+    </test>
+</suite>
